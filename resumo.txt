@@ -1,0 +1,41 @@
+1. CLIENT - SERVER
+
+Rotas: caminho entre o cliente e o servidor.
+DNS: traduz a URL de um site em endereço ip.
+Cliente faz a requisição primeiro ao DNS, o qual devolve o ip e em seguida o cliente requisita os dados ao servidor.
+Domínio: nome do site.
+Hospedagem: local onde o site é armazenado.
+
+ex.: www.facebook.com/login
+A URL é composta por todas as partes abaixo
+www: sub-domínio
+facebook: domínio
+com: TLD
+login: caminho
+
+2. OBJETIVO DO HTML, CSS, JS
+A linguagem de HTML é focada em conteúdo (texto, imagens, vídeos, tabelas).
+CSS é focada em design (cores, sombras, tamanhos, posicionamentos).
+JS é focado em interatividade (menus, animações, pop-us, validações).
+
+Client-side: front-end (html, css, Js). O foco é na experiência e interatividade do usuário.
+Server-side: back-end (LPs). O foco é a interação entre o código desenvolvido e o servidor.
+
+3. TAGS HTML
+- <!DOCTYPE html>: diz ao browser que é HTML 5.
+- <html lang="pt-br"> </html: onde todo o código da página ficará.
+- <head> </head>: é a parte de metadados.
+- <body> </body: onde estará o código html.
+- <h1> </h1>: títulos.
+- <p> </p: parágrafos.
+- <hr>: linha horizontal.
+
+4. LINKS ÚTIL
+- Unsplash para imagens.
+- icon archive
+- favicon.cc: site para você criar um ícone.
+- favicon.io: transforma imagem em ícone.
+
+5. FORMATOS DE IMAGEM
+- GIMP: software livre para edição de imagens.
+- O GIMP permite que você altere o tamanho do arquivo a partir da redução de qualidade de imagem e seu dimensionamento.
