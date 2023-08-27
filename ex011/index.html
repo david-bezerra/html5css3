@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex004/img/android-chrome-192x192.png" type="image/x-icon">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/">
+        <img src="./img/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metada ta" controls loop>
+        <source src="media/Guess I'll Never Know - TrackTribe.mp3" type="audio/mpeg">
+        <source src="media/Guess I'll Never Know - TrackTribe.mp3" type="audio/ogg">
+        <source src="media/Guess I'll Never Know - TrackTribe.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.
+            <a href="media/Guess I'll Never Know - TrackTribe.mp3">
+                Clique aqui para baixar o arquivo.
+            </a>
+        </p>
+    </audio>
+</body>
+</html>

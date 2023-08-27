@@ -15,7 +15,7 @@ login: caminho
 
 2. OBJETIVO DO HTML, CSS, JS
 A linguagem de HTML é focada em conteúdo (texto, imagens, vídeos, tabelas).
-CSS é focada em design (cores, sombras, tamanhos, posicionamentos).
+CSS é focada em design, estilo, forma (cores, sombras, tamanhos, posicionamentos).
 JS é focado em interatividade (menus, animações, pop-us, validações).
 
 Client-side: front-end (html, css, Js). O foco é na experiência e interatividade do usuário.
@@ -29,13 +29,47 @@ Server-side: back-end (LPs). O foco é a interação entre o código desenvolvid
 - <h1> </h1>: títulos.
 - <p> </p: parágrafos.
 - <hr>: linha horizontal.
+- <strong>: tag para negritar.
+- <em>: tag deixar em itálico.
+- <small>: tag para deixar a letra pequena.
+- <del>: tag que risca a palavra.
+- <ins>: tag que sublinha.
+- <sup>: sobrescrito.
+- <sub>: texto subscrito.
+- <code>: para definir o mesmo espaço para cada caracter.
+- <pre>: exibe o conteúdo definido dentro da tag com identação no formato código.
+- <q>: usado para fazer citação simples. Seu resultado gera aspas. Lê-se quote.
+- <blockquote>: tag utilizada para fazer citações em bloco. A tag aceita um parâmetro cite="" para inserir a fonte da citação.
+- <abbr>: tag para dar significado as siglas de um texto.
+- <bdo dir="ltr">/<bdo dir="rtl">: inverte o texto.
+- <ol>: lista ordenada.
+    + A tag <ol> possui o parâmetro type que define como os itens desta lista serão numerados. 
+    + O parâmetro start define em qual numeração será iniciada a lista.
+- <li>: item da lista.
+- <ul>: lista desordenada.
+    + O parâmetro type="" permite alterar o elemento da lista para disk, circle, square.
+- <dl>: data list. Cria uma lista de dados.
+- <dt>: data table. É o nome da coluna.
+- <dr>: data row. Nome da linha.
+- <dd>: é a definição do termo.
 
 4. LINKS ÚTIL
 - Unsplash para imagens.
 - icon archive
 - favicon.cc: site para você criar um ícone.
 - favicon.io: transforma imagem em ícone.
+- pexels.
+- handbrake
 
 5. FORMATOS DE IMAGEM
 - GIMP: software livre para edição de imagens.
 - O GIMP permite que você altere o tamanho do arquivo a partir da redução de qualidade de imagem e seu dimensionamento.
+
+6. Hierarquia de títulos
+h1: é o título principal.
+- O nível do heading vai diminuindo conforme o grau de importância.
+- <p>lorem: gera um texto bláblá.
+- <p>loremN: gera um texto com uma quantidade palavras específica.
+
+7. CSS INLINE
+- Em um mesmo arquivo HTML, é possível utilizar css inline, interno e externo.
