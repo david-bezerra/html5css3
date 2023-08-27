@@ -52,6 +52,18 @@ Server-side: back-end (LPs). O foco é a interação entre o código desenvolvid
 - <dt>: data table. É o nome da coluna.
 - <dr>: data row. Nome da linha.
 - <dd>: é a definição do termo.
+- <header>: utilizada para colocar logo, barra de pesquisa (toolbar) etc.
+- <nav>: tag para reunir os links navegáveis.
+- <main>: onde será desenvolvido a parte principal do código.
+- <footer>: utilizado para as notas de rodapé, quem somos, informações adicionais.
+- <figure>: para reunir todas as tags <img>.
+- <figcaption>: descrição da imagem.
+- <video>: tag para adicionar vídeo.
+- <audio>: tag para adicionar áudio.
+- <embed>: tag para adicionar qualquer tipo de arquivo de mídia.
+- <section>: reune tags de texto ou quaisquer outras que sejam sobre o mesmo tema.
+- <article>: pode estar ou não associada a tag section, mas seu objetivo é concentrar as tags de texto, como p.
+- <aside>: tag para trazer informações adicionais.
 
 4. LINKS ÚTIL
 - Unsplash para imagens.
