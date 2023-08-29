@@ -85,3 +85,53 @@ h1: é o título principal.
 
 7. CSS INLINE
 - Em um mesmo arquivo HTML, é possível utilizar css inline, interno e externo.
+
+
+7.1 TAGS E ESTILOS
+- @charset "UTF-8"
+- /**/: adiciona comentário
+- font-family
+- font-size: unidades de medida px, em.
+- font-weight: define o negrito.
+- font-style: itálico.
+- text-indent: é o espaço antes de começar o parágrafo.
+- É possível ter mais de uma classe no mesmo atributo class da tag.
+- Vários elementos podem ter a mesma classe.
+- ".": para classe.
+- "#": para id.
+- ":": pseudo-classe.
+- "::": pseudo-elemento.
+- ">": children.
+- user agent: configurações do navegador.
+- margin: auto. Deixa o elemento no meio da tela (centralizado)
+
+
+7.2 PSEUDO-CLASSES E PSEUDO-ELEMENTOS
+- Pseudo-classe: depois do seletor + :, pode ter algumas palavras especiais: :hover, :visited, :active, :checked, :empty, :focus. Altera o estado de um elemento.
+- Pseudo-elementos: depois do seletor + ::, pode ter algumas palavras especiais: ::before, ::after, ::first-letter, ::first-line. Altera um pedaço específico do elemento.
+
+8. NOMES
+- Os nomes para as classes devem ser de acordo com suas funcionalidades; o mesmo se aplica ao id.
+
+8. CAIXAS/BOX
+- content: é o conteúdo.
+- padding: preenchimento. Distância entre o conteúdo e a borda.
+- border: borda. Colada ao padding.
+- margin: margem. Colada a borda.
+    + Uma distância entre a margem e borda pode ser criada: outline. Ele é calculado com base no tamanho da margin, porque ele está dentro dela.
+
+8.1 TIPOS DE CAIXA
+- box-level: o começo de uma tag é na linha seguinte. Reserva a área total da tela para a box e depois começa o conteúdo na linha seguinte.
+    + Ex.: div, section, header, main, footer, nav, article, aside.
+- inline-level: ocupa somente o tamanho que precisa na mesma linha e depois continua o conteúdo.
+    +Ex.: span, strong, emphasis, input, button.
+- OBS.: é possível alterar a característica do display, box-level e inline-level, alterando na CSS o elemento display para block ou inline.
+    + É possível mesclar o block e o inline. Ex.: display: inline-block;
+
+9. SHORTHAND
+- padding: 10px (aplica nas 4 posições).
+    + padding: 10px;
+    + padding: 10px (top/bottom) 20px (right/left);
+- border: tamanho estilo cor.
+- margin: 20px 20px 40px 20px --> 20px 20px 40px;
+- É possível centralizar apenas um ou mais lados de uma caixa. Ex.: margin: 20px auto 40px auto --> margin: 20px auto 40px;
